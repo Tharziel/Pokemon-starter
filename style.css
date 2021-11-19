@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+
+.d1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/images/PLA_Hisui_Map.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.d2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(assets/images/PLA_Screen_Global_01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-family: 'Rubik Beastly', cursive;
+    color: #d81919;
+    font-style: italic;
+
+}
+
+.keu{
+    height: 214px;
+    width: 100%;
+    background-image: url(assets/images/keunotor.jpg);
+    /*background-position: center;*/
+    /*background-size: cover;*/
+}
