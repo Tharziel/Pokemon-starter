@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
 
 
 .d1{
     height: 80vh;
-    width: 100%;
+    width: auto;
     background-image: url(assets/images/PLA_Hisui_Map.png);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .d2{
@@ -17,9 +18,9 @@
     background-size: cover;
 }
 h1{
-    font-family: 'Rubik Beastly', cursive;
-    color: #d81919;
-    font-style: italic;
+    font-family: 'Shojumaru', cursive;
+    color: #000;
+   /* font-style: italic;*/
 
 }
 
@@ -29,4 +30,9 @@ h1{
     background-image: url(assets/images/keunotor.jpg);
     /*background-position: center;*/
     /*background-size: cover;*/
+}
+
+.logo{
+    height: 80px;
+    width: auto;
 }
