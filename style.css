@@ -62,3 +62,16 @@ h1{
     font-size: 50px;
     color: #000;
 }
+
+.sep{
+    background-image: url(assets/images/divider-diamond-blue-small.png);
+    background-size: 10px;
+}
+
+.loi{
+    height: 10px;
+}
+
+.wdt{
+    width: 100vh;
+}
