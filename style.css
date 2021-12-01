@@ -1,38 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap');
 
+*{
+    font-family: 'Tillana', cursive;
+}
 
 .d1{
-    height: 80vh;
+    height: 1000px;
     width: auto;
-    background-image: url(assets/images/PLA_Hisui_Map.png);
+    background-image: url(assets/images/Pokemon_Legends_Arceus_screenhot_01.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .d2{
-    height: 100vh;
-    width: 100%;
+    height: 1000px;
+    width: auto;
     background-image: url(assets/images/PLA_Screen_Global_01.jpg);
     background-position: center;
     background-size: cover;
 }
-h1{
-    font-family: 'Shojumaru', cursive;
-    color: #000;
-   /* font-style: italic;*/
 
+h1{
+    color: rgb(255, 255, 255);
 }
 
 .keu{
     height: 214px;
     width: 100%;
     background-image: url(assets/images/keunotor.jpg);
-    /*background-position: center;*/
-    /*background-size: cover;*/
 }
 
 .logo{
     height: 80px;
     width: auto;
+}
+
+.h1_t{
+    height: 1000px;
+}
+
+.footer{
+    height: 500px;
+    width: auto;
+    background-image: url(assets/images/mountains-overlay.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(233, 218, 170);
+}
+
+.character{
+    background-color: rgb(233, 218, 170);
+    font-size: 80px;
+}
+
+.logo_arceus{
+    height: 200px;
 }

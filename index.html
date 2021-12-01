@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="assets/images/Pokemon_Legends_Arceus_art_Main_Old_PokeBall.png" type="image/x-icon">
 </head>
 <body>
+  <header> <!--Header avec la navbar-->
     <nav class="navbar navbar-expand-lg navbar-light #d1ccb0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="logo img-fluid" alt="logo pokémon"></a>
@@ -28,7 +29,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Feature</a>
               </li>
-
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -37,30 +37,70 @@
           </div>
         </div>
       </nav>
+    </header>
 
     <main>
-        <div class="d1 p-0 container-fluid">
-            <div class="row h-100 d-flex justify-content-center align-items-center">
-            <h1 class="text-center w-50">Venez explorer les gigantesques contrées de la région de Hisui !</h1>
-        </div>
-        <div class="keu"></div>
-        <div class="d2 container-fluid">
-            <div class="row h-100 d-flex justify-content-center align-items-center">
-            <h1 class="text-center w-50">Avec encore plus de KEUNOTOR à attraper !</h1>
-        </div>
-        <div class="keu"></div>
-        <div class="container-fluid">
+        <div class="d1 p-0 container-fluid"><!--Première image-->
             <div class="row">
-                <div class="col-md-6">
-                    <img src="assets/images/PLA_Screen_Global_27.jpg" class="w-50">
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/images/PLA_Screen_Global_26.jpg" class="w-50 ">
-                </div>
+              <div class="h1_t col d-flex flex-column align-items-center justify-content-center">
+                <img src="assets/images/Logo-Arceus.png" class="logo_arceus " alt="logo de pokémon legends arceus">
+                <h1 class="w-50 fw-light">Venez explorer les gigantesques contrées de la région de Hisui !</h1>
+              </div>
             </div>
         </div>
 
+        <div class="d2 container-fluid"><!--Deuxième image-->
+          <div class="row ">
+            <div class="col d-flex justify-content-center align-items-center">
+              <h2 class="text-center w-50">Avec encore plus de KEUNOTOR à attraper !</h2>
+            </div>
+          </div>
         </div>
+
+        <section class="character">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center m-0 p-0">
+                  <img src="assets/images/PLA_Screen_Global_27.jpg" class="w-100">
+              </div>
+              <div class="col-md-6 d-flex align-items-center justify-content-center text-center m-0 p-0">
+                <p>Incarnez Lucas</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 d-flex align-items-center justify-content-center text-center m-0 p-0">
+                <p>Incarnez Aurore</p>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center m-0 p-0">
+                  <img src="assets/images/PLA_Screen_Global_26.jpg" class="w-100">
+              </div>
+            </div>
+          </div>
+        </section>
+        
+
+          
+        
     </main>
+    <footer>
+      <div class="footer container-fluid">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
+              <h2 class="fw-light">Conditions d'utilisations</h2>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
+              <h2 class="fw-light">Qui sommes-nous ?</h2>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
+              <h2 class="fw-light">Confidentialité</h2>
+            </div>
+            <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
+              <h2 class="fw-light">Précommande</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
