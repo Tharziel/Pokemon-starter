@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokémon Legends : Arceus</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <!--TEST DE CDN POUR CAROUSEL
+    
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+    -->
+    
    
     <link rel="shortcut icon" href="assets/images/Pokemon_Legends_Arceus_art_Main_Old_PokeBall.png" type="image/x-icon">
 </head>
@@ -30,10 +38,11 @@
                 <a class="nav-link" href="#">Feature</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+            <a class="nav-link" href="#"><i class="bi bi-playstation"></i></a>
+            <a class="nav-link" href="#"><i class="bi bi-xbox"></i></a>
+          <a class="nav-link" href="#"><i class="bi bi-steam"></i></a>
+
           </div>
         </div>
       </nav>
@@ -42,20 +51,92 @@
     <main>
         <div class="d1 p-0 container-fluid"><!--Première image-->
             <div class="row">
-              <div class="h1_t col d-flex flex-column align-items-center justify-content-center">
+              <div class="five_h col d-flex flex-column align-items-center justify-content-center ">
                 <img src="assets/images/Logo-Arceus.png" class="logo_arceus " alt="logo de pokémon legends arceus">
-                <h1 class="w-50 fw-light">Venez explorer les gigantesques contrées de la région de Hisui !</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="five_h col d-flex flex-column align-items-center justify-content-center ">
+                <h1 class="w-50 fw-light">Venez explorer les gigantesques contrées de la région de Hisui !</h1>   
               </div>
             </div>
         </div>
 
-        <div class="d2 container-fluid"><!--Deuxième image-->
+        <div class="d1 p-0 container-fluid"><!--Date sortie-->
           <div class="row ">
-            <div class="col d-flex justify-content-center align-items-center">
-              <h2 class="text-center w-50">Avec encore plus de KEUNOTOR à attraper !</h2>
+            <div class="five_h col d-flex flex-column align-items-center justify-content-center text-center">
+              <h1 class="w-50 fw-light position-absolute">Sortie officielle le 28 Janvier !</h1>
+              <img src="assets/images/billboard-brush-backplate.png" class="black_ink " alt="Tâche d'encre noire">
+              
             </div>
           </div>
+         
+            
+                 
+            
+          
+      </div>
+
+        <!--CAROUSEL-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/PLA_Screen_Global_02.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <div class="row">
+                  <div class="col d-flex justify-content-center align-items-center">
+                    <img src="assets/images/billboard-brush-backplate.png" class="black_ink " alt="tâche d'encre noir">
+                    <p class="display-2 position-absolute">Sortie officielle le 28 Janvier</p>
+                  </div>
+                </div>
+                
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/PLA_Screen_Global_03.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/PLA_Screen_Global_01.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+
+        <section class="pre-order p-5">
+          <div class=" container"><!--Précommande-->
+            <div class="row">
+              <div class="col-lg-6 d-flex justify-content-center ">
+                <img src="assets/images/PLA_Packshot_UK.png" class="boite" alt="Boite du jeu">
+              </div>
+              <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                <h2 class="text-center w-75">Précommandez le jeu et obtenez des exclusivités !</h2>
+                <a href="#"></a>
+              </div>
+            </div>
+          </div>
+      </section>
 
         <section class="character">
           <div class="container">
@@ -77,10 +158,7 @@
             </div>
           </div>
         </section>
-        
-
-          
-        
+   
     </main>
     <footer>
       <div class="footer container-fluid">
@@ -102,5 +180,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

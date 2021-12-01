@@ -5,6 +5,10 @@
     font-family: 'Tillana', cursive;
 }
 
+.navbar{
+    background-color: rgb(233, 218, 170);
+}
+
 .d1{
     height: 1000px;
     width: auto;
@@ -14,22 +18,16 @@
     background-repeat: no-repeat;
 }
 
-.d2{
-    height: 1000px;
-    width: auto;
-    background-image: url(assets/images/PLA_Screen_Global_01.jpg);
-    background-position: center;
-    background-size: cover;
+.boite{
+    height: 500px;
+}
+
+.pre-order{
+    background-color: rgb(233, 218, 170);
 }
 
 h1{
     color: rgb(255, 255, 255);
-}
-
-.keu{
-    height: 214px;
-    width: 100%;
-    background-image: url(assets/images/keunotor.jpg);
 }
 
 .logo{
@@ -37,8 +35,8 @@ h1{
     width: auto;
 }
 
-.h1_t{
-    height: 1000px;
+.five_h{
+    height: 500px;
 }
 
 .footer{
@@ -58,4 +56,9 @@ h1{
 
 .logo_arceus{
     height: 200px;
+}
+
+.bi{
+    font-size: 50px;
+    color: #000;
 }
