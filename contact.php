@@ -32,7 +32,7 @@ if(isset($_POST['submit'])){
     try{
        
 
-        $mail->SMTPDebug = SMTP::DEBUG_SERVER; # Car on veut afficher les infos de debug (ne pas laisser en prod)
+       // $mail->SMTPDebug = SMTP::DEBUG_SERVER; # Car on veut afficher les infos de debug (ne pas laisser en prod)
         $mail->isSMTP(); #Indique que l'on transmet par protocole SMTP
         $mail->Host = "localhost";
         $mail->Port = 1025;
@@ -57,12 +57,13 @@ if(isset($_POST['submit'])){
 
     <main>
     
-        <p> <?php if(isset($_POST['submit'])){ ?>
-            <div class="alert alert-success d-flex align-items-center my-3" role="alert">
-            <?php echo $success;}  
-            ?> </p>
+        
 </div>
         <h1 class="text-center">Nous contacter</h1>
+         <?php if(isset($_POST['submit'])){ ?>
+            <div class="alert alert-success d-flex align-items-center my-3 mx-3" role="alert">
+                 <p> <?php echo $success;}  ?></p>
+            </div> 
         <form class="my-3 mx-3" method="post">
             <div class="mb-3">
                 <input class="form-control" type="text" name="name" placeholder="Votre Nom">

@@ -13,7 +13,7 @@
               <h3 class="fw-light">Confidentialité</h3>
             </div>
             <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
-              <h3 class="fw-light"><a href="contact.php">Contact</a></h3>
+              <h3 class="fw-light"><a class="text-decoration-none text-black" href="contact.php">Contact</a></h3>
             </div>
           </div>
         </div>
