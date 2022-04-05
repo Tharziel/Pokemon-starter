@@ -15,6 +15,7 @@
             </div>
         </div>
     </div>
+    <p class="text-center text-white">Utiliser les touches fléchées pour changer les images</p>
 
     <?php require_once 'footer.php'; ?>
     <script src="bootstrap/js/bootstrap.min.js"></script>

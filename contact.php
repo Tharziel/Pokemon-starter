@@ -11,13 +11,13 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-if(isset($_POST['submit'])){
+if(isset($_POST['submit'])){ 
     $name = htmlspecialchars($_POST['name']);
     $emailFrom = htmlspecialchars($_POST['email']);
     $subject = htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
     $date = date('Y-m-d H:i:s');
-
+   
     require_once "includes/Exception.php";
     require_once "includes/PHPMailer.php";
     require_once "includes/SMTP.php";
@@ -44,7 +44,8 @@ if(isset($_POST['submit'])){
         $mail->Subject = $subject;
         $mail->Body = $message;
         $mail->send(); # On envoie le mail
-        echo "Message envoyé.";
+        $success = "Message envoyé.";
+
 
     }catch(Exception $e){
         echo "Message non envoyé. Erreur: {$mail->ErrorInfo}";
@@ -54,9 +55,13 @@ if(isset($_POST['submit'])){
 
 ?>
 
-
-
     <main>
+    
+        <p> <?php if(isset($_POST['submit'])){ ?>
+            <div class="alert alert-success d-flex align-items-center my-3" role="alert">
+            <?php echo $success;}  
+            ?> </p>
+</div>
         <h1 class="text-center">Nous contacter</h1>
         <form class="my-3 mx-3" method="post">
             <div class="mb-3">
