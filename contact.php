@@ -87,3 +87,6 @@ if(isset($_POST['submit'])){
 
 <?php require_once 'footer.php'; ?>
 <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

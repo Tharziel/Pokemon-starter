@@ -1,6 +1,7 @@
 
-<body>
 <?php require_once 'menu.php'; ?>
+<body>
+
 
     <main>
         <div class="d1 p-0 container-fluid"><!--Première image-->

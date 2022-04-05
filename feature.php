@@ -1,4 +1,6 @@
-<?php require_once 'menu.php'; ?>
+<?php 
+require_once 'menu.php'; 
+?>
 <body>
 
       <section class="formes">
