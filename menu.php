@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     
    
     <link rel="shortcut icon" href="assets/images/Pokemon_Legends_Arceus_art_Main_Old_PokeBall.png" type="image/x-icon">
 </head>
-<body>
+
+<header> <!--Header avec la navbar-->
     <nav class="navbar navbar-expand-lg navbar-light #d1ccb0">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="assets/images/logo.png" class="logo img-fluid" alt="logo pokémon"></a>
@@ -23,13 +25,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="index.php">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="gallery.html">Galerie</a>
+                <a class="nav-link" href="gallery.php">Galerie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="feature.html">Feature</a>
+                <a class="nav-link" href="feature.php">Feature</a>
               </li>
             </ul>
 
@@ -40,37 +42,4 @@
           </div>
         </div>
       </nav>
-      <section class="formes">
-        <div class="text-black text-center row">
-          <h1 >Feature</h1>
-          <h2>POKEMON ARCEUS</h2>
-
-            <p> Legend begins with you!</p> 
-            
-              <p> Coming to PC, Xbox Series X, PS5 and last gen in 2022</p>
-        </div>
-      </section>
-
-      <footer><!--FOOTER-->
-        <div class="footer">
-          <div class="sep"></div>
-          <div class="container py-5">
-            <div class="row">
-              <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
-                <h3 class="fw-light">Conditions d'utilisations</h3>
-              </div>
-              <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
-                <h3 class="fw-light">Qui sommes-nous ?</h3>
-              </div>
-              <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
-                <h3 class="fw-light">Confidentialité</h3>
-              </div>
-              <div class="col-lg-3 d-flex justify-content-center align-items-center text-center">
-                <h3 class="fw-light">Précommande</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-</body>
-</html>
+    </header>
